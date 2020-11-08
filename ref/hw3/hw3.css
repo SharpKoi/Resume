@@ -1,0 +1,92 @@
+html {
+  height: 640px;
+}
+
+body {
+  position: absolute;
+  margin: 0;
+  width: 100%;
+  height: 640px;
+  text-align: center;
+  background: linear-gradient(135deg, rgba(255,63,251,1) 0%, rgba(90,249,255,1) 100%);
+}
+
+h1 {
+  color: white;
+  text-shadow: -1px 1px 4px rgba(0, 0, 0, 0.8);
+}
+
+p {
+  color: white;
+  text-shadow: -1px 1px 4px rgba(0, 0, 0, 0.8);
+}
+
+#cards-container {
+  margin-top: 30px;
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 30px;
+}
+
+.card {
+  display: inline-grid;
+  width: 300px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.6), -2px 0px 6px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  background-color: #2b3135;
+  color: white;
+  height: 30px;
+  line-height: 30px;
+}
+
+.card-title:hover {
+  cursor: default;
+}
+
+.card-table {
+  background-color: #3c434d;
+  color: white;
+  height: 150px;
+  border-spacing: 0px;
+}
+
+.card-table-cell {
+  background-color: #3c434d;
+  transition: background-color 0.4s;
+}
+
+.card-table-cell:hover {
+  background-color: #747f8f;
+  cursor: default;
+}
+
+.submit-button {
+  margin: 30px auto;
+  width: 120px;
+  height: 30px;
+  letter-spacing: 2px;
+  text-align: center;
+  line-height: 30px;
+  color: black;
+  border: 2.5px solid black;
+  border-radius: 4px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.6), -2px 0px 6px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: background-color 0.4s, box-shadow 0.1s;
+}
+
+.submit-button:hover {
+  background-color: white;
+  color: black;
+  border: 2.5px solid black;
+}
+
+.submit-button:active {
+  background-color: rgb(100, 100, 100);
+  color: black;
+  border: 2.5px solid black;
+  box-shadow: none;
+}

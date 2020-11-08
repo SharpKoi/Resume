@@ -1,0 +1,90 @@
+@media screen and (max-width: 800px) {
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+
+  section {
+    position: relative;
+  }
+
+  nav {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: block;
+    justify-content: center;
+  }
+
+  nav div#title {
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+  }
+
+  nav div#title i {
+    display: inline-flex;
+    padding: 20px;
+  }
+
+  nav div#title i:hover {
+    cursor: pointer;
+  }
+
+  nav div#title h1 {
+    margin: 0;
+  }
+
+  nav .menu {
+    display: none;
+  }
+
+  nav .menu ul {
+    position: relative;
+    margin-top: 64px;
+  }
+
+  nav .menu ul li {
+    position: relative;
+    display: block;
+    text-align: center;
+  }
+
+  .home-section {
+    display: block;
+  }
+
+  .photo-container {
+    width: 100%;
+    padding: 40px 0;
+  }
+
+  .photo-container div {
+    min-width: 160px;
+    min-height: 160px;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    background-size: 100px;
+  }
+
+  .intro-area {
+    width: 100%;
+    padding: 20px 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .intro-area div {
+    display: inline-block;
+  }
+
+  .homeworks-section {
+    height: auto;
+  }
+}

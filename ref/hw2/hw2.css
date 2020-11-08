@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  color: white;
+}
+
+nav {
+  margin: 0;
+  background-color: #2b313b;
+  height: 64px;
+  line-height: 64px;
+  overflow: hidden;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  transition: 0.2s;
+}
+
+nav ul li:hover {
+  background-color: #4599d9
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+div#logo {
+  float: left;
+}
+
+div#form-search {
+  position: absolute;
+  top: 0;
+  right: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  nav {
+    height: 100%;
+  }
+
+  nav ul {
+    margin-top: 64px;
+    justify-content: center;
+
+  }
+
+  nav ul li {
+    display: block;
+    width: inherit;
+  }
+
+  div#logo {
+    height: 64px;
+  }
+
+  div#form-search {
+    position: absolute;
+    top: 0;
+    right: 10;
+  }
+}
