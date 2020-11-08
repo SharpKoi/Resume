@@ -3,7 +3,7 @@ const app = express();
 app.use(express.static("public"));
 
 app.get('/', (req, res) => {
-  res.sendFile('index.html');
+  res.sendFile('hw1-0612201-李俞鋒.html');
 })
 
 const port = process.env.PORT || 3000;
