@@ -54,13 +54,18 @@
     text-align: center;
   }
 
+  nav .menu ul li a {
+    margin: 0;
+  }
+
   .home-section {
     display: block;
+    height: auto;
   }
 
   .photo-container {
     width: 100%;
-    padding: 40px 0;
+    padding: 20px 0;
   }
 
   .photo-container div {
@@ -74,7 +79,7 @@
 
   .intro-area {
     width: 100%;
-    padding: 20px 0;
+    padding: 10px 0;
     justify-content: center;
     align-items: center;
     text-align: center;
